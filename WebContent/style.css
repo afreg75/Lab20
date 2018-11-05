@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url(pictures/learn.jpg);	
+	background-size:100%;
+}
+
+h1{
+	color:white;
+	font-size: 60px;
+}
+p{
+color: #ff8000;
+font-size: 25px;
+
+}
+
+#header{background-color:black;position:relative;height:90px;width:100%;top:0px;right:0px;color:white;}
+
+#footer{background-color:black;position:fixed;height:80px;width:100%;bottom:0px;right:0px;color:white;}
+
+#header:hover{background-color:#ccc2ff;transition:background 0.05s;}
+#footer:hover{background-color:#ccc2ff;transition:background 0.05s;}
+
+#header{
+	height:85px;
+	bacground:#F0F0F0;
+	border:1px solic #CCC;
+	position:fixed;
+	top:0px;
+	width:100%
+}
+
+
+.href{
+	color:black;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+.column {
+   
+    padding: 30px;
+}
+
+.menu {
+
+  
+    width: 25%;
+}
+.content {
+		
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+	
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+
